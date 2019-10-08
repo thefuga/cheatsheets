@@ -1,4 +1,5 @@
-** Surround
+# Vim
+## Surround
 
 `cs"'` replaces `"` for `'`.
 `ds'` removes `'`.
@@ -7,11 +8,11 @@
 
 PS: Open wraps with space, close wraps without space.
 
-** Commentary
+## Commentary
 `gcc` comments out a line.
 `gc` comments target of a motion.
 
-** VTR
+## VTR
 `VtrOpenRunner` opens a new tmux pane attached to vim.
 `VtrSendCommandToRunner` sends the command to runner i.e. `ruby sample.rb`
 `VtrSendCommandToRunner` sends the command and opens a new attached tmux pane.
